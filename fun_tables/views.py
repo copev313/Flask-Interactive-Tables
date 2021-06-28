@@ -1,6 +1,7 @@
-from tables import app
-from tables.models import User
 from flask import render_template, request
+
+from fun_tables import app
+from fun_tables.models import User
 
 
 @app.route('/')
